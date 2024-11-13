@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  background-color: #eaeaea;
+  width: 100vw;
+  height: 100vh;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+}
+.app > h2 {
+  color: #808080;
+  margin: 12px;
+}
+.searchInput {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  width: 30%;
+  font-family: inherit;
+  color: #808080;
+}
+.noteInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  width: 75%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.noteInputGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  width: 100%;
+}
+.textarea {
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  resize: none;
+  font-family: inherit;
+  color: #808080;
+  &:focus {
+    outline: none;
+  }
+}
+.colorPicker {
+  display: flex;
+  gap: 5px;
+}
+.colorDot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.addButton {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #34a853;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.notesContainer {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 75%;
+}
+.note {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  width: 32%;
+  color: #000;
+  position: relative;
+}
+.note > p {
+  text-align: start;
+}
+.deleteButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  line-height: 1;
+  &:hover {
+    color: #e74c3c;
+  }
+}
