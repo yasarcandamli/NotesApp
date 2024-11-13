@@ -2,6 +2,8 @@
 
 NotesApp, basit ve kullanıcı dostu bir not alma uygulamasıdır. Kullanıcılar, kısa notlar ekleyebilir, istedikleri renkte not alabilir, notları filtreleyebilir ve kolayca silebilir. Bu proje, React ile geliştirilmiştir.
 
+Siteye [buradaki bağlantıdan](https://bucolic-vacherin-e62d24.netlify.app/) ulaşabilirsiniz
+
 ## Özellikler
 
 - **Not Ekleme**: Kullanıcılar, metin alanına yazdıkları notları ekleyebilir.
